@@ -1,0 +1,36 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+secrets.json
+credentials.json
+
+# Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+*.egg-info/
+
+# Local databases, model outputs and usage logs
+backend/storage/
+backend/*.sqlite3*
+backend/*.db
+backend/*_output/
+

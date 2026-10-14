@@ -1,0 +1,4 @@
+crewai==1.15.26
+litellm==1.105.0
+python-dotenv==1.2.2
+
